@@ -2055,105 +2055,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Memory_EEPROM:24LC1025"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4557,7 +4458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 93.472 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -4606,82 +4507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b90594d-bb93-4002-b5b1-896a25900e70")
-		(property "Reference" "H1"
-			(at 256.54 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 256.54 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 254 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "MCU data logger"
-				(path "/a27c3145-a67d-4cc1-be60-ff7a5f771e3a"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 24.13 67.31 90)
 		(unit 1)
@@ -4715,7 +4540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
+		(property "Footprint" ""
 			(at 24.13 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4795,7 +4620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 148.59 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -4877,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 238.252 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 175.26 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -5117,7 +4942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" ""
 			(at 85.09 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5217,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 84.582 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -5287,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 171.45 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +5122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 175.26 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -5457,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 108.9152 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5539,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 262.89 37.846 90)
 			(hide yes)
 			(show_name no)
@@ -5621,82 +5446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68677118-ec53-43b5-983a-fefb59118f78")
-		(property "Reference" "H4"
-			(at 256.54 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 256.54 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 254 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "MCU data logger"
-				(path "/a27c3145-a67d-4cc1-be60-ff7a5f771e3a"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 247.65 39.37 0)
 		(unit 1)
@@ -5708,7 +5457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "699c7dd8-2ee0-4c86-ab1a-97053dc52ad9")
-		(property "Reference" "C5"
+		(property "Reference" "100nF1"
 			(at 251.46 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +5479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 248.6152 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5772,7 +5521,7 @@
 		(instances
 			(project "MCU data logger"
 				(path "/a27c3145-a67d-4cc1-be60-ff7a5f771e3a"
-					(reference "C5")
+					(reference "100nF1")
 					(unit 1)
 				)
 			)
@@ -5890,7 +5639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 129.032 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -5933,82 +5682,6 @@
 			(project "MCU data logger"
 				(path "/a27c3145-a67d-4cc1-be60-ff7a5f771e3a"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c0cf6fe-1d01-435e-8899-f7a4012165a8")
-		(property "Reference" "H2"
-			(at 256.54 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 256.54 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 254 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "MCU data logger"
-				(path "/a27c3145-a67d-4cc1-be60-ff7a5f771e3a"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6244,7 +5917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
+		(property "Footprint" ""
 			(at 175.26 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6326,7 +5999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" ""
 			(at 50.8 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 165.1 51.1048 0)
 			(hide yes)
 			(show_name no)
@@ -6504,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 165.1 63.8048 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 115.062 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -6635,82 +6308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c16f876e-4d17-4c94-a089-06db7e3186dd")
-		(property "Reference" "H3"
-			(at 256.54 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 256.54 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 254 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "MCU data logger"
-				(path "/a27c3145-a67d-4cc1-be60-ff7a5f771e3a"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 163.83 40.64 0)
 		(unit 1)
@@ -6741,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" ""
 			(at 163.83 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +6509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" ""
 			(at 240.03 50.8 0)
 			(hide yes)
 			(show_name no)
