@@ -19,3 +19,15 @@
 # ZIP archives
 # -----------------------------
 *.zip
+# KiCad Lock Files
+*.lck
+
+# Restore backups
+_restore_backup_*/
+
+# Editor history
+.history/
+
+# Windows
+Thumbs.db
+Desktop.ini
