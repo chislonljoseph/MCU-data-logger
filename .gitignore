@@ -1,33 +1,15 @@
-# -----------------------------
-# KiCad temporary files
-# -----------------------------
-*.lck
+# KiCad lock files
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*.kicad_pro.lck
+
+# KiCad backup/history
 .history/
+_restore_backup*/
 
-# -----------------------------
-# Personal KiCad settings
-# -----------------------------
-*.kicad_prl
-
-# -----------------------------
-# Backup files
-# -----------------------------
-*.bak
-*-backups/
-
-# -----------------------------
-# ZIP archives
-# -----------------------------
-*.zip
-# KiCad Lock Files
-*.lck
-
-# Restore backups
-_restore_backup_*/
-
-# Editor history
-.history/
-
-# Windows
+# Operating system
 Thumbs.db
 Desktop.ini
+
+# macOS
+.DS_Store
